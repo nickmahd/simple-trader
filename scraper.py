@@ -1,9 +1,7 @@
 from datetime import datetime
-import io
 from os import environ as env
 import requests as rq
 
-from bs4 import BeautifulSoup as BS
 import pandas as pd
 
 class Request:

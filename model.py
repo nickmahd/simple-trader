@@ -62,4 +62,4 @@ class EvalStrategy:
                 self.shares[ticker] += action
                 self.profit += cost
 
-strat = EvalStrategy(data=df, span_days=150, span_2=50, devation_upper=1.1, deviation_lower=1.25)
+strat = EvalStrategy(data=df, span_days=150, span_2=50, devation_upper=1.1, deviation_lower=1.1)
